@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Voga';
+    src: url('Voga-Medium.eot');
+    src: local('Voga Medium'), local('Voga-Medium'),
+        url('Voga-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Voga-Medium.woff2') format('woff2'),
+        url('Voga-Medium.woff') format('woff'),
+        url('Voga-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Voga';
+    src: url('Voga-Bold.eot');
+    src: local('Voga Bold'), local('Voga-Bold'),
+        url('Voga-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Voga-Bold.woff2') format('woff2'),
+        url('Voga-Bold.woff') format('woff'),
+        url('Voga-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Voga';
+    src: url('Voga-Regular.eot');
+    src: local('Voga'), local('Voga-Regular'),
+        url('Voga-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Voga-Regular.woff2') format('woff2'),
+        url('Voga-Regular.woff') format('woff'),
+        url('Voga-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
