@@ -28,6 +28,15 @@ html {
 /*************************************************************************/
 /*************************************************************************/
 
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
 .logo {
   position: relative;
   height: 40px;
@@ -75,6 +84,23 @@ nav a {
   color: var(--color1);
   text-decoration: none;
   font-size: 18px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #111;
+  color: var(--color1);
+  transition: all 0.3s ease-in-out;
+
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
 }
 
 .hero {

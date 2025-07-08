@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diego Reija</title>
   <link rel="icon" href="./images/DiegoReijaLogo.jpeg">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/medias.css">
   <!-- Swiper.js CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
@@ -19,7 +20,9 @@
 			</a>
 		</div>
       	<nav>
-        	<ul>
+			<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+        	<ul class="nav-links" id="navLinks">
 				<li><a href="#home">HOME</a></li>
 				<li><a href="#certifications">CERTFICATIONS</a></li>
 		  		<li><a href="#about">ABOUT ME</a></li>          
@@ -57,7 +60,7 @@
 		<div class="about-layout">
 			<!-- Foto -->
 			<div class="about-photo">
-			<img src="tu-foto.jpg" alt="Mi foto personal" />
+			<img src="./images/2025_07_02.png" alt="Mi foto personal" />
 			</div>
 
 			<!-- Capítulos -->

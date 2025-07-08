@@ -1,0 +1,78 @@
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: var(--color2);
+    border: 1px solid var(--color1);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 1rem;    
+    /* Animación */
+    opacity: 0;
+    pointer-events: none;
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  }
+
+  .nav-links.active {
+    display: flex;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+    .bx-twitter-x,
+    .bx-instagram {
+    font-size: 20px;
+    }
+
+/*******************************************************************/
+/*******************************************************************/
+    .yo {
+        left: 18%;
+        top: 40%;
+        font-size: 17px;
+    }
+
+    .nombre {
+        font-size: 125px;
+        margin-right: 0%;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+
+    .profesion {
+        font-size: 17px;
+        margin-left: 43%;
+        bottom: 39%;
+    }
+
+    .btn {
+        top: 68%;
+        left: 30%;
+    }
+
+/*******************************************************************/
+/*******************************************************************/
+
+    p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+  /* Teléfonos estándar: iPhone, Android común, etc. */
+
+
+}
