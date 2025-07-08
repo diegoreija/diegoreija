@@ -13,6 +13,7 @@
     top: 60px;
     right: 0;
     width: 200px;
+    z-index: 1001;
     padding: 1rem;    
     /* Animación */
     opacity: 0;
@@ -71,8 +72,14 @@
 
 }
 
-@media screen and (max-width: 576px) {
-  /* Teléfonos estándar: iPhone, Android común, etc. */
+@media screen and (max-width: 480px) {
+  /* Teléfonos pequeños tipo SE, Galaxy mini, etc. */
 
+        .profesion {
+        font-size: 16.5px;
+        margin-left: 43%;
+        bottom: 39%;
+    }
 
 }
+
