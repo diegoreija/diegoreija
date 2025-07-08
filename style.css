@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  --color1: rgb(70, 70, 70);
+  --color2: #000000;
 }
 
 @font-face {
@@ -12,7 +15,7 @@
 }
 
 body {
-  background-color: #000;
+  background-color: var(--color2);
   color: #fff;
   font-family: 'Voga', serif;
   overflow-x: hidden;
@@ -52,8 +55,8 @@ header {
   display: flex;
   justify-content: space-between;
   z-index: 1000;
-  background-color: #000;
-  border-bottom:1px solid whitesmoke;
+  background-color: var(--color2);
+  border-bottom:1px solid var(--color1);
 }
 
 .firma {
@@ -69,7 +72,7 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: var(--color1);
   text-decoration: none;
   font-size: 18px;
 }
@@ -184,7 +187,7 @@ a {
 
 .certifications {
   padding: 130px 40px;
-  background-color: #000;
+  background-color: var(--color2);
   color: white;
   position: relative;
   z-index: 1;
@@ -244,12 +247,12 @@ a {
 
 .certifications::before {
   left: 0;
-  background: linear-gradient(to right, black 0%, transparent 100%);
+  background: linear-gradient(to right,  var(--color2) 0%, transparent 100%);
 }
 
 .certifications::after {
   right: 0;
-  background: linear-gradient(to left, black 0%, transparent 100%);
+  background: linear-gradient(to left,  var(--color2) 0%, transparent 100%);
 }
 
 /*************************************************************************/
@@ -258,7 +261,7 @@ a {
 
 .about-me {
   padding: 100px 40px;
-  background-color: #000;
+  background-color: var(--color2);
   color: white;
 }
 
@@ -284,8 +287,13 @@ a {
   min-height: 500px;
   border-radius: 12px;
   object-fit: cover;
-  border: 2px solid white;
+  border: 1px solid var(--color1);
 }
+
+.about-photo {
+  box-shadow: 10% 10% #fff;
+}
+
 
 .about-content {
   max-width: 600px;
@@ -301,7 +309,7 @@ a {
 
 .tab {
   background: none;
-  border: 1px solid rgba(255,255,255,0.3);
+  border: 1px solid var(--color1);
   color: white;
   padding: 10px 16px;
   border-radius: 8px;
