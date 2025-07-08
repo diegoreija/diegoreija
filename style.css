@@ -121,7 +121,7 @@ footer {
   gap: 15px;
 }
 
-.social img {
+.social i {
   width: 25px;
   height: 25px;
 }
@@ -170,6 +170,12 @@ a {
   border-radius: 12px;
   border: 0px solid;
   font-weight: bold;
+}
+
+
+.bx-twitter-x,
+.bx-instagram {
+  font-size: 25px;
 }
 
 
