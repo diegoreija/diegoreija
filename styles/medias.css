@@ -5,7 +5,11 @@
 
 @media screen and (max-width: 768px) {
   
-  .img_yo {
+    .logo {
+        justify-content: flex-start !important;
+    }
+
+    .img_yo {
         z-index: -1;
         width: 80%;
         height: 80%;
@@ -98,6 +102,10 @@
 
 @media screen and (max-width: 480px) {
   /* Teléfonos pequeños tipo SE, Galaxy mini, etc. */
+    .logo {
+        justify-content: flex-start !important;
+    }
+
 
         .profesion {
         font-size: 16.5px;
